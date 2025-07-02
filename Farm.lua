@@ -1,7 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local remote = ReplicatedStorage.RemoteEvent.SpawnTower
+local remote = ReplicatedStorage:WaitForChild("RemoteEvent")
 
-local towers = {"Scientist", "Mech", "Titan"}
+local towers = {"Scientist Cameraguy", "Mech Cameraguy", "Titan Upgrade TV Guy"}
 
 local positions = {
     Vector3.new(0, 5, 0),
